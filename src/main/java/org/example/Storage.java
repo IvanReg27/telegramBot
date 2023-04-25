@@ -31,29 +31,8 @@ public class Storage {
         quoteList.add("Гогито приходи ко мне, я тебя жду:)");
         quoteList.add("Всем пока!");
     }
-    String getMessageBot() {
-        int messageBot;
-        return quoteList.get(0);
-        return quoteList.get(1);
-        return quoteList.get(2);
-        return quoteList.get(3);
-        return quoteList.get(4);
-        return quoteList.get(5);
-        return quoteList.get(6);
-        return quoteList.get(7);
-        return quoteList.get(8);
-        return quoteList.get(9);
-        return quoteList.get(10);
-        return quoteList.get(11);
-        return quoteList.get(12);
-        return quoteList.get(13);
-        return quoteList.get(14);
-        return quoteList.get(15);
-        return quoteList.get(16);
-        return quoteList.get(17);
-        return quoteList.get(18);
-        return quoteList.get(19);
-        return quoteList.get(20);
-        return quoteList.get(21);
+    String getRandQuote() {
+        int randValue = (int)(Math.random() * quoteList.size());
+        return quoteList.get(randValue);
     }
 }
