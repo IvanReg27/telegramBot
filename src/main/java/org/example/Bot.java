@@ -48,7 +48,7 @@ public class Bot extends TelegramLongPollingBot {
             //здесь старт ранее прописаной логиги (можно переписать)
             response = storage.getRandQuote();
         else
-            response = "Пиши только слово 'анектод'";
+            response = "Пиши только слово 'шутка'";
         return response;
         }
     }
