@@ -43,12 +43,12 @@ public class Bot extends TelegramLongPollingBot {
         String response;
 
         if(textMsg.equals("/start"))
-            response = "Привет, я классная! Всегда пиши только слово 'да', и тогда я начну флирт с тобой, а потом можем и зажечь вместе, понимаешь о чем я...";
-        else if(textMsg.equals("да"))
+            response = "Привет, я рассказываю анектод. Всегда пиши только слово 'шутка', и тогда получишь новый анектод";
+        else if(textMsg.equals("шутка"))
             //здесь старт ранее прописаной логиги (можно переписать)
             response = storage.getRandQuote();
         else
-            response = "Сообщение не распознано";
+            response = "Пиши только слово 'анектод'";
         return response;
         }
     }
