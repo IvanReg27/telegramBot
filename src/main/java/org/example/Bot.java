@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class Bot extends TelegramLongPollingBot {
     final private String BOT_TOKEN = "5984975961:AAF7VMK_1bvs3XuNB9dgpHUepToM4KSptKM";
-    final private String BOT_NAME = "@Masha2000_bot";
+    final private String BOT_NAME = "@Natasha2000_bot";
     Storage storage;
     ReplyKeyboardMarkup replyKeyboardMarkup;
     Bot() {
